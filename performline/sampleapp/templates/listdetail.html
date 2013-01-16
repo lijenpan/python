@@ -1,0 +1,6 @@
+<h1>{{ list.name }}</h1>
+<ul>
+  {% for link in list.links.all %}
+    <li><a href="{{ link.link }}">{{ link.name }}</a></li>
+  {% endfor %}
+</ul>

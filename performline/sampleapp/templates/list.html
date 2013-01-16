@@ -1,0 +1,9 @@
+{% if all_lists %}
+  <ul>
+    {% for list in all_lists %}
+      <li><a href="/sampleapp/list/{{ list.id }}/">{{ list.name }}</a></li>
+    {% endfor %}
+  </ul>
+{% else %}
+  <p>No lists are available.</p>
+{% endif %}
