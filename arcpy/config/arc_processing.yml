@@ -1,0 +1,33 @@
+ftp:
+  server: localhost
+  user: test
+  password: test1
+  remote_store_directory: exported_stores\
+  local_store_directory: d:\var\dev\data\archives\inputs\
+  remote_report_directory: reports\
+
+logging_db:
+  user: logger
+  password: test1
+  db_server: localhost
+  database: dev
+  
+working:
+  unzip_dir: d:\var\dev\data\100\
+  create_layers_dir: d:\var\dev\data\200\
+  create_ta_layers_dir: d:\var\dev\data\300\
+  run_proximity_dir: d:\var\dev\data\400\
+  run_demographics_dir: d:\var\dev\data\500\
+  transform_names_dir: d:\var\dev\data\600\
+  zip_dir: d:\var\dev\data\700\
+  ftp_put: d:\var\dev\data\800\
+
+archive:
+  inputs: d:\var\dev\data\archives\inputs\
+  outputs: d:\var\dev\data\archives\outputs\
+
+source:
+  create_store_layers: d:\var\dev\src\yml_to_layer.py
+  create_locator_report: d:\var\dev\src\locator_report.py
+  create_trade_areas: d:\var\dev\src\create_trade_areas.py
+  create_demographics_report: d:\var\dev\src\quick_report.py
