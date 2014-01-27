@@ -1,0 +1,3 @@
+I dug around of my old harddrive during spring cleaning and found some more code I've written in Python. If memory serves, I was going for the technical manager position but my interviewer, Scott, said I have a very strong technical background but want to discuss with other managers about my candidacy.
+
+As I almost forgot I interviewed there, Scott finally got back to me and said I lacked "agency experience" but would consider me as a senior engineer who would be growing into the manager position. Then he gave me an online test. Despite he being a condescending prick, I finished the coding exercise anyway to demonstrate my technical competency was way better than what he asked for. Then I declined his "great" offer.
