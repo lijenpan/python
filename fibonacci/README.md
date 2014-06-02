@@ -21,9 +21,9 @@ def F(n):
 ```
 Much better performance indeed.
 
-In the pre [Wolfram|Alpha] world, this answer is probably good enough. But in recent years, interviewers start asking how can you improve this further, say like O(1) for both Time and Space complexity. You are in shocked because you never heard of such thing. Then you are staring at the whiteboard and thinking how can this be done?!
+In the pre [Wolfram|Alpha] world, this answer is probably good enough and the interviewer moves on to the next question. But in recent years, interviewers start asking how can you improve this further, say like O(1) for both Time and Space complexity. You are in shocked because you never heard of such thing. Then you are staring at the whiteboard and thinking how can this be done?!
 
-After five to ten of minutes of struggle, the interviewer will stop you because you don't have the answer. Some not-so-nice interviewers will say go home and do some research and then turn you away. While others will show you this answer without any explanation on how they conjured up this solution:
+After five to ten minutes of struggle, the interviewer will stop you because you don't have the answer. Some not-so-nice interviewers will say go home and do some research and then turn you away. While others will show you this answer without any explanation on how they conjured up this solution:
 
 ```
 import math
