@@ -10,8 +10,8 @@ It's called Manacher's algorithm. O(n) for both time and space.
 
 def longest_palindrome(text):
     N = len(text)
-    if N == 0:
-        return
+    if N <= 1:
+        return text
     N = 2 * N + 1  # Position count
     L = [0] * N
     L[0] = 0
