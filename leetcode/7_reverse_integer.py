@@ -20,6 +20,9 @@ def reverse(x):
         sign = 1
     x_str = str(abs(x))
     r = x_str[::-1]
+    # So that we conform to 32-bit integer requirement
+    if 2**31 * -1 > sign * int(r) or 2**31 < sign * int(r):
+        return 0
     return sign * int(r)
 
 
