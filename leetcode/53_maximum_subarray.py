@@ -20,7 +20,7 @@ def maxSubArray(nums):
     :rtype: int
     """
     local_max = 0
-    global_max = 0
+    global_max = -999
 
     for i in xrange(0, len(nums)):
         if local_max < 0:
