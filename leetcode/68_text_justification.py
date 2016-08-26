@@ -19,6 +19,8 @@ Return the formatted lines as:
 ==================================
 Worked on this problem before https://github.com/lijenpan/python/blob/master/rackspace/q2/solution.py.
 But let's solve this without using libraries, which is hard.
+
+Turns out that this is also a DP problem: https://www.youtube.com/watch?v=ENyox7kNKeY
 """
 
 
