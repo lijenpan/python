@@ -10,7 +10,6 @@ The result can be in any order.
 ==============================
 
 """
-from collections import Counter
 
 
 def intersection(nums1, nums2):
